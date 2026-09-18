@@ -1,0 +1,30 @@
+# Environment & Virtualenvs
+.venv/
+venv/
+env/
+.env
+*.env
+
+# Python Caches & Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Tool & Test Caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Logs (keeps the directory tracked via .gitkeep)
+logs/*
+!logs/.gitkeep
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
